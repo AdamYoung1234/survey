@@ -22,7 +22,7 @@ const (
 )
 
 type runeReaderState struct {
-	term   *term.state
+	term   *term.State
 	reader *bufio.Reader
 	buf    *bytes.Buffer
 }
